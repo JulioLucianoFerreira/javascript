@@ -1,0 +1,71 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(82, 82, 82);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #fafafa;
+    border-radius: 9px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: 0,0,0 0.5;
+    overflow: hidden;
+}
+
+.header{
+    background: linear-gradient(120deg, #89d038 0%, #4dfaf8 100%);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.form{
+    padding: 15px;
+}
+
+.form input{
+    width: 100%;
+    padding: 5px;
+    display: block;
+    margin-bottom: 4px;
+    margin-top: 8px;
+}
+
+#mens{
+    text-align: center;
+    display: none;
+    width: 100%;
+    color: brown;
+    padding-top: 8px;
+}
+#sucesso{
+    text-align: center;
+    display: none;
+    width: 100%;
+    color: rgb(116, 255, 160);
+    padding-top: 8px;
+    }
+
+
+button{
+    width: 100%;
+    border-radius: 8px;
+    height: 25px;
+    background-color: #3af095;
+    border: 0;
+    cursor: pointer;
+}
+
+#num-02 {
+    margin-bottom: 8px;
+}
